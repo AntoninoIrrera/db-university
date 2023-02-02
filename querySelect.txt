@@ -35,7 +35,7 @@ query:
 query:
     SELECT *
     FROM `exams`
-    WHERE HOUR(`hour`) > "14" and `date` = "2020-06-20";
+    WHERE HOUR(`hour`) >= "14" and `date` = "2020-06-20";
 
 6: Selezionare tutti i corsi di laurea magistrale (38)
 
